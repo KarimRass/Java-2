@@ -12,16 +12,17 @@ package circle;
 public class Circle {
     int radius;
 
-       public void getRound(){
+       public Double getRound(){
         double round;
         round=3.142*(radius)*2;
         System.out.println("Round = "+round);
-        
+        return round;
     }
-    public void getArea(){
+    public double getArea(){
         double area;
        area=3.142*(radius)*(radius);
         System.out.println("Area = "+ area);
+        return area;
     }
     
 }
