@@ -9,6 +9,8 @@ package pkg;
  *
  * @author ASUS
  */
-public interface Speaker {
-    public  void hello();
+public class A {
+    public void m1() {
+        System.out.println("Hello from A :)");
+    }
 }
